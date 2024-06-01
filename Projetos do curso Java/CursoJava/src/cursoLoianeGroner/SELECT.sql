@@ -29,8 +29,8 @@ OR                           OPERADOR LÓGICO OU
 */
 
 --COUNT => É utilizado para contar o número de registros em  uma tabela.
-SELEC COUNT(*)  --Para CONTAR tudo ou
-SELECT COUNT(DISTINCT coluna1, coluna2) -- Para CONTAR sem duplicatas. 
+SELEC count(*)  --Para CONTAR tudo ou
+SELECT count(DISTINCT coluna1, coluna2) -- Para CONTAR sem duplicatas. 
 FROM TABELA
 
 --TOP => É utilizado para especificar um número de registro para ser retornado
@@ -41,3 +41,16 @@ FROM TABELA
 SELECT coluna1, coluna2
 FROM TABELA
 ORDER BY coluna1 asc/desc
+
+--BETWEEN => É usado para encontrar valor entre um valor minimo e valor maximo.
+valor BETWEEN minimo and maximo;
+
+--IN => É usado para verificar se um valor corresponde com qualquer valor passado na lista de valores. Usamos junto com o Where.
+SELEC *
+FROM TABELA
+WHERE coluna1 IN (*,*,*ETC);
+
+--LIKE => É usado para encontrar algo dentro do banco de dados que você nao sabe o nome dela direito. lembra de apenas uma parte tipo ovi... alguma coisa.
+SELEC
+FROM TABELA
+WHERE FirstName LIKE 'ovi%' --ou '%ton'
