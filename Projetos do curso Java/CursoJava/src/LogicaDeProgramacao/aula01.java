@@ -7,7 +7,7 @@ public class aula01 {
         byte idade = 39;
         long cpf = 123456789;
         char sexo = 'M';
-        String nome = "Welton";
+        String nome = "Welton"; // nao é primitivo
         int filhos = 4;
         double altura = 1.69; 
         float salario = 2.200f;
