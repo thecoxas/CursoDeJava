@@ -19,7 +19,7 @@ public class operadores {
         int soma = n1 + n2;
         int diferenca = n1 - n2;
         int multiplicacao = n1 * n2;
-        float divisao = n1 / n2;
+        double divisao = n1 / n2;
         int resto = n1 % n2;
         
         // Saída dos dados
