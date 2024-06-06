@@ -9,7 +9,7 @@ public class ConversaoParaCentimetros {
 
         System.out.println("Digite o valor a ser convertido : ");
         double valor = scan.nextDouble();
-        double conversao = valor * 100;
+        double conversao = valor * 100; //Metros para centimetros;
         System.out.println(conversao+ " centimetros");
     }
 }
