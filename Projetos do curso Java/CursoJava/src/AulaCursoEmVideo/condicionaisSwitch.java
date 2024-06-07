@@ -13,10 +13,10 @@ public class condicionaisSwitch {
                 System.out.println("Saci");
                 break;
                 case 2:
-                System.out.println("Bipede");
+                System.out.println("Bípede");
                 break;
                 case 4 :
-                System.out.println("Quadrupede");
+                System.out.println("Quadrúpede");
                 break;
                 case 6:
                 case 8:
